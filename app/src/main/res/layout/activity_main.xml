@@ -21,7 +21,12 @@
 <Button
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Calculate "/>
+    android:text="Calculate Now"
+    android:id="@+id/calculatebtn"
+    android:layout_below="@id/largetext"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="170dp"
+    android:onClick="NextActivity"/>
 
 
 
